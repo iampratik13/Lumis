@@ -1,0 +1,24 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ViewDefinition [CoordinationView]'),'2;1');
+FILE_NAME('Minimal IFC','2024-01-01T00:00:00',('User'),('Org'),'','IfcOpenShell','');
+FILE_SCHEMA(('IFC4'));
+ENDSEC;
+DATA;
+
+#1 = IFCPROJECT('0',$,'Project',$,$,$,$,(#10),#5);
+#5 = IFCUNITASSIGNMENT((#6));
+#6 = IFCSIUNIT(*,.LENGTHUNIT.,.METRE.,$);
+
+#10 = IFCGEOMETRICREPRESENTATIONCONTEXT($,'Model',3,1.E-5,#11,$);
+#11 = IFCAXIS2PLACEMENT3D(#12,$,$);
+#12 = IFCCARTESIANPOINT((0.,0.,0.));
+
+#20 = IFCBUILDING('1',$,'Building',$,$,$,$,$,$,$,$);
+#30 = IFCBUILDINGSTOREY('2',$,'Storey',$,$,$,$,$,$);
+
+#40 = IFCPIPESEGMENT('pipe1',$,'Pipe',$,$,$,$,$);
+#50 = IFCDUCTSEGMENT('duct1',$,'Duct',$,$,$,$,$);
+
+ENDSEC;
+END-ISO-10303-21;
