@@ -55,7 +55,7 @@ export default function Navbar() {
           whileHover={{ opacity: 0.75 }}
           transition={{ duration: 0.2 }}
         >
-          TRINETRA
+          LUMIS
           <span
             style={{
               position: 'absolute',

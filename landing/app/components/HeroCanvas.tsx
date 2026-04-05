@@ -16,7 +16,7 @@ interface Beat {
 }
 
 const BEATS: Beat[] = [
-  { headline: 'TRINETRA', subHeadline: 'Advanced Surveillance Intelligence', startPct: 0, endPct: 30 },
+  { headline: 'LUMIS', subHeadline: 'Advanced Surveillance Intelligence', startPct: 0, endPct: 30 },
   { headline: 'Security\nReimagined', startPct: 30, endPct: 70 },
   { headline: 'The future of safety.', cta: true, startPct: 70, endPct: 100 },
 ];
@@ -275,7 +275,7 @@ export default function HeroCanvas() {
                           mixBlendMode: 'plus-lighter',
                         }}
                       >
-                        TRINETRA
+                        LUMIS
                       </motion.h1>
                       <motion.p
                         className="mt-6 no-select"
@@ -308,7 +308,7 @@ export default function HeroCanvas() {
                         color: 'rgba(255,255,255,0.95)',
                       }}
                     >
-                      Perception<br />
+                      Engineering<br />
                       <span
                         style={{
                           background: 'linear-gradient(135deg, #0050FF, #00D6FF)',
@@ -317,7 +317,7 @@ export default function HeroCanvas() {
                           backgroundClip: 'text',
                         }}
                       >
-                        Reimagined
+                        Reimagined.
                       </span>
                     </motion.h2>
                   )}
@@ -335,7 +335,7 @@ export default function HeroCanvas() {
                           color: 'rgba(255,255,255,0.9)',
                         }}
                       >
-                        The future of vision.
+                        The future of coordination.
                       </motion.h2>
                       <motion.div
                         className="mt-10 pointer-events-auto"
@@ -344,7 +344,7 @@ export default function HeroCanvas() {
                         transition={{ delay: 0.4, duration: 0.6 }}
                       >
                         <button className="btn-primary">
-                          Enter Trinetra
+                          ENTER LUMIS
                         </button>
                       </motion.div>
                     </>

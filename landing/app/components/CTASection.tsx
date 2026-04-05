@@ -56,7 +56,7 @@ export default function CTASection() {
               fontFamily: 'var(--font-inter)',
             }}
           >
-            Smart Surveillance Awaits
+            Smart Engineering Awaits
           </span>
         </motion.div>
 
@@ -85,7 +85,7 @@ export default function CTASection() {
               backgroundClip: 'text',
             }}
           >
-            secure
+            resolve
           </span>{' '}
           everything?
         </motion.h2>
@@ -107,7 +107,7 @@ export default function CTASection() {
             margin: '0 auto 56px',
           }}
         >
-          Trinetra is exclusively available for partners and early adopters. Request access to join the future of perception.
+          This system is exclusively built for the next generation of architectural engineering. Step into the future of autonomous Building Information Modeling.
         </motion.p>
 
         {/* CTA buttons */}
@@ -174,7 +174,7 @@ export default function CTASection() {
                 fontFamily: 'var(--font-inter)',
               }}
             >
-              TRINETRA
+              LUMIS
             </span>
             <span
               style={{
@@ -184,7 +184,7 @@ export default function CTASection() {
                 fontFamily: 'var(--font-inter)',
               }}
             >
-              © 2026 Trinetra. All rights reserved.
+              © 2026 LUMIS. All rights reserved.
             </span>
           </div>
         </motion.div>

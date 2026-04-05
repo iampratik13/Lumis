@@ -32,8 +32,8 @@ interface Footer2Props {
 const Footer2 = ({
   logo = {
     src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg",
-    alt: "Trinetra",
-    title: "Trinetra",
+    alt: "Lumis",
+    title: "Lumis",
     url: "/",
   },
   className,
@@ -76,7 +76,7 @@ const Footer2 = ({
       ],
     },
   ],
-  copyright = "© 2026 Trinetra. All rights reserved.",
+  copyright = "© 2026 LUMIS. All rights reserved.",
   bottomLinks = [
     { text: "Terms and Conditions", url: "#" },
     { text: "Privacy Policy", url: "#" },

@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Trinetra — See Beyond the Visible",
-  description: "Trinetra is the all-seeing intelligence layer for next-generation perception. Experience vision, reimagined.",
-  keywords: ["Trinetra", "vision technology", "AI perception", "neural vision"],
+  title: "LUMIS — See Beyond the Visible",
+  description: "LUMIS is the all-seeing intelligence layer for next-generation perception. Experience vision, reimagined.",
+  keywords: ["LUMIS", "vision technology", "AI perception", "neural vision"],
 };
 
 export default function RootLayout({

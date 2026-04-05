@@ -82,7 +82,7 @@ export default function VisionSection() {
             marginBottom: '48px',
           }}
         >
-          Trinetra enables intelligent surveillance with real-time threat detection, weapon recognition, and crowd analytics for{' '}
+          This engine enables intelligent building coordination with automated spatial analysis, precise clash detection, and autonomous MEP rerouting for{' '}
           <span
             style={{
               background: 'linear-gradient(135deg, #0050FF, #00D6FF)',
@@ -91,7 +91,7 @@ export default function VisionSection() {
               backgroundClip: 'text',
             }}
           >
-            smarter security.
+            smarter engineering.
           </span>
         </motion.h2>
 
@@ -132,7 +132,7 @@ export default function VisionSection() {
               color: 'rgba(255,255,255,0.45)',
             }}
           >
-            In a world saturated with images and signals, true intelligence lies not in what you see — but in how you see. Trinetra was built to give machines the gift of genuine perception.
+            In a world saturated with complex 3D models and intersecting systems, true intelligence lies not just in what you detect - but in how you resolve it. This platform was built to give BIM systems the gift of autonomous problem-solving.
           </p>
           <p
             style={{
@@ -143,7 +143,7 @@ export default function VisionSection() {
               color: 'rgba(255,255,255,0.45)',
             }}
           >
-            Our systems don't just process pixels — they understand context, read intent, and anticipate what lies beyond the frame. Welcome to the third eye.
+            Our algorithms don't just highlight geometric overlaps - they understand clearance rules, respect constructability constraints, and compute the optimal path forward. Welcome to the future of MEP coordination.
           </p>
         </motion.div>
       </div>

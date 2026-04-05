@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 const capabilities = [
   {
     number: '01',
-    title: 'Weapon Detection',
+    title: 'Algorithmic Clash Detection',
     description:
-      'AI-powered detection of firearms, sharp objects, and dangerous items in real-time. Advanced pattern recognition identifies potential threats instantly.',
+      'Automated tracking of geometric conflicts between pipes, ducts, and cable trays. Advanced spatial logic (using Broad and Narrow phase detection) identifies both hard intersections and soft clearance violations instantly.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
@@ -17,9 +17,9 @@ const capabilities = [
   },
   {
     number: '02',
-    title: 'Crowd Analytics',
+    title: 'Autonomous Rerouting',
     description:
-      'Real-time crowd monitoring, density estimation, and anomaly detection. Track movements, identify unusual behaviors, and manage public spaces intelligently.',
+      'Intelligent pathfinding utilizing 3D A* search on voxelized grids. Computes optimal, constructable alternate paths that automatically adhere to standard elbow angles, gravity slopes, and ceiling void limits.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
@@ -28,9 +28,9 @@ const capabilities = [
   },
   {
     number: '03',
-    title: 'Multi-Modal Fusion',
+    title: 'Seamless BIM Integration',
     description:
-      'Integrate visible light, thermal imaging, and depth sensors. Unified platform processes all sensor data seamlessly for comprehensive situational awareness.',
+      'A closed-loop automated pipeline. Extract XML conflict data from Navisworks, process the resolution via the AI backend, and seamlessly push JSON modifications directly back into the Revit model to achieve zero clashes.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <circle cx="12" cy="12" r="3" />
@@ -125,7 +125,7 @@ export default function TechnologySection() {
             maxWidth: '600px',
           }}
         >
-          Built for a world that never stops moving.
+          Built for a construction landscape that demands precision.
         </motion.h2>
 
         {/* Cards grid */}
