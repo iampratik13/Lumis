@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exchange units="m">
+  <batchtest name="SampleTest">
+    <clashtests>
+      <clashtest name="MixedClashes">
+
+        <clashresults>
+
+          <!-- ✅ REROUTABLE: Pipe vs Wall -->
+          <clashresult name="Clash1">
+            <clashpoint>
+              <pos3f x="5.0" y="5.0" z="3.0"/>
+            </clashpoint>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1001</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Pipe Segment</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2001</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Concrete Wall</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+
+          <!-- ✅ REROUTABLE: Duct vs Beam -->
+          <clashresult name="Clash2">
+            <clashpoint>
+              <pos3f x="8.0" y="2.0" z="4.0"/>
+            </clashpoint>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1002</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>HVAC Duct</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2002</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel Beam</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+
+          <!-- ✅ REROUTABLE: Cable Tray vs Panel -->
+          <clashresult name="Clash3">
+            <clashpoint>
+              <pos3f x="3.0" y="7.0" z="2.5"/>
+            </clashpoint>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>1003</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Cable Tray</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2003</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Electrical Panel</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+
+          <!-- ❌ NON-REROUTABLE: Wall vs Beam -->
+          <clashresult name="Clash4">
+            <clashpoint>
+              <pos3f x="6.0" y="6.0" z="3.0"/>
+            </clashpoint>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2004</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Concrete Wall</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2005</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel Beam</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+
+          <!-- ❌ NON-REROUTABLE: Railing vs Slab -->
+          <clashresult name="Clash5">
+            <clashpoint>
+              <pos3f x="9.0" y="3.0" z="4.0"/>
+            </clashpoint>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2006</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Glass Railing</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>2007</value>
+                </objectattribute>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Concrete Slab</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+
+        </clashresults>
+
+      </clashtest>
+    </clashtests>
+  </batchtest>
+</exchange>
