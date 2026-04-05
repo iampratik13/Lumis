@@ -1,0 +1,90 @@
+export const mepElements = [
+  {
+    id: "CHW-042",
+    type: "pipe",
+    system: "ColdWater",
+    revitPosition: [14200, -2000, 2450],
+    diameter: 150, 
+    length: 10000, 
+    rotation: [0, 0, Math.PI / 2],
+    is_clashing: true,
+    clash_type: "hard", 
+    rerouted_offset: [0, 0, 120]
+  },
+  {
+    id: "SA-102-A",
+    type: "duct",
+    system: "SupplyAir",
+    revitPosition: [14200, -2000, 2450],
+    width: 600,
+    height: 400,
+    length: 8000,
+    rotation: [0, Math.PI / 2, 0],
+    is_clashing: true,
+    clash_type: "hard",
+    rerouted_offset: null
+  },
+  {
+    id: "HWS-11",
+    type: "pipe",
+    system: "HotWater",
+    revitPosition: [22100, 10400, 3120],
+    diameter: 100,
+    length: 15000,
+    rotation: [0, Math.PI / 4, 0],
+    is_clashing: true,
+    clash_type: "soft",
+    clearance: 150,
+    rerouted_offset: [0, -45, 0]
+  },
+  {
+    id: "ST-902",
+    type: "duct",
+    system: "Structure",
+    revitPosition: [22100, 10400, 3120],
+    width: 300,
+    height: 600,
+    length: 20000,
+    rotation: [0, Math.PI / 4 + Math.PI / 2, 0],
+    is_clashing: true,
+    clash_type: "soft",
+    rerouted_offset: null
+  },
+  {
+    id: "CHW-043",
+    type: "pipe",
+    system: "ColdWater",
+    revitPosition: [18000, 5000, 2800],
+    diameter: 250,
+    length: 20000,
+    rotation: [0, 0, 0],
+    is_clashing: false,
+    rerouted_offset: null
+  },
+  {
+    id: "EA-201",
+    type: "duct",
+    system: "ReturnAir",
+    revitPosition: [12800, 4200, 2750],
+    width: 500,
+    height: 500,
+    length: 12000,
+    rotation: [0, Math.PI/3, 0],
+    is_clashing: true,
+    clash_type: "hard",
+    rerouted_offset: [0, -200, 0]
+  },
+  {
+    id: "EL-04",
+    type: "duct",
+    system: "Electrical",
+    revitPosition: [12800, 4200, 2750],
+    width: 300,
+    height: 100,
+    length: 10000,
+    rotation: [0, Math.PI/3 + Math.PI/2, 0],
+    is_clashing: true,
+    clash_type: "hard",
+    rerouted_offset: null
+  }
+];

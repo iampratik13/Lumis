@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-white;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.glass-hud {
+  background: rgba(14, 21, 38, 0.7);
+  backdrop-filter: blur(12px);
+}
+
+.viewport-grid {
+  background-image: linear-gradient(to right, rgba(50, 58, 77, 0.2) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(50, 58, 77, 0.2) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.wireframe-shine {
+  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.05) 100%);
+}
+
+.severity-critical { border-color: #1e3a8a; }
+.severity-major { border-color: #3b82f6; }
+.severity-minor { border-color: #10b981; }
